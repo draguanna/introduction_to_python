@@ -27,7 +27,7 @@ while n < 0: -
  n = max_number-
 print(n)-
 """
-
+# Правильное решение
 n = int(input())
 max_number = n
 while n != 0:

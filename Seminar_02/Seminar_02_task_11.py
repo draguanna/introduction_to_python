@@ -6,19 +6,19 @@
 ------------------------------------------------------------------------------------------------------------------
 """
 # Исходные параметры
-input = 5
+num = 5
 
 # Инициализация начальных значений
 fib_prev, fib_next = 0, 1
 count = 2
 
 # Поиск числа Фибоначчи, ближайшего к A
-while fib_next < input:
+while fib_next < num:
     fib_prev, fib_next = fib_next, fib_prev + fib_next
     count += 1
 
 # Проверка, является ли A числом Фибоначчи
-if fib_next == input:
+if fib_next == num:
     print("Число Фибоначчи под номером: ", count)
 else:
     print("-1")
